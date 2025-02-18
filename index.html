@@ -1,34 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Social links profile</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Jessica Randall
-  London, United Kingdom
-  "Front-end developer and avid reader."
-
-  GitHub
-  Frontend Mentor
-  LinkedIn
-  Twitter
-  Instagram
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body>
+    <main>
+      <div class="profile-card spaced-flex-column">
+        <img
+          class="space-under"
+          src="assets/images/me-upscaled.png"
+          alt="Profile Picture"
+        />
+        <h1 class="h2 name">Gabriel de Azevedo</h1>
+        <h4 class="accent-color space-under">Litoral Norte, RS, Brasil</h4>
+        <p class="short-bio space-under">"Desenvolvedor Web e Escritor"</p>
+        <ul class="spaced-flex-column">
+          <li>
+            <a class="button" href="https://github.com/gabriel-de-azevedo"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/gabriel-marques-de-azevedo/"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="button"
+              href="https://www.frontendmentor.io/profile/gabriel-de-azevedo"
+              >Frontend Mentor</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
